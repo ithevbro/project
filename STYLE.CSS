@@ -33,7 +33,6 @@ ul {
     margin: 0 200px;
     text-align: justify;
 }
-
 .opus p {
     opacity: 60%;
 }
@@ -41,3 +40,19 @@ ul {
 {
     margin-top: 50px;
 }
+
+.grid-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 160px;
+    row-gap: 50px;
+    
+}
+
+figcaption {
+    opacity: 60%;
+    margin-top: 20px;
+}
+.grid-cont img {
+    width: 100%;
+} 
