@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: lightgray;
+    padding: 10px 0;
+}
+.cont-head {
+    display: flex;
+    margin: 0 150px;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: auto;
+    display: flex;
+    gap: 150px;
+}
