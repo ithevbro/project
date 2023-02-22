@@ -18,3 +18,12 @@ ul {
     display: flex;
     gap: 150px;
 }
+
+section img {
+    width: 100%;
+    max-height: 700px;
+}
+
+.kartuna {
+    margin: 0 150px;
+}
