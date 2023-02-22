@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -19,11 +20,24 @@ ul {
     gap: 150px;
 }
 
-section img {
+.kartuna img {
     width: 100%;
     max-height: 700px;
 }
 
 .kartuna {
     margin: 0 150px;
+}
+
+.opus {
+    margin: 0 200px;
+    text-align: justify;
+}
+
+.opus p {
+    opacity: 60%;
+}
+.opus :nth-child(4)
+{
+    margin-top: 50px;
 }
