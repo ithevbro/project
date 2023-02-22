@@ -13,7 +13,7 @@ header {
     align-items: center;
 }
 
-ul {
+.verh {
     list-style-type: none;
     margin-left: auto;
     display: flex;
@@ -93,4 +93,35 @@ button {
     background-color: white;
     padding: 15px 30px;
     font-size: 20px;
+}
+
+.nuz {
+    display: flex;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.nuz1 {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.nuz2 {
+    display: flex;
+    margin-left: auto;
+    gap: 30px;
+    align-items: center;
+}
+
+footer img {
+    width: 30px;
+}
+
+footer ul {
+    list-style-type: none;
+
+}
+
+footer {
+    background-color: lightgray;
 }
