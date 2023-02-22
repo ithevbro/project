@@ -125,3 +125,39 @@ footer ul {
 footer {
     background-color: lightgray;
 }
+
+@media (max-width:960px) { 
+.cont-head {
+        display: inline-flex;
+    }
+.verh {
+    gap: 10px;
+    flex-direction: column;
+}
+
+.opus {
+    margin: 20px;
+}
+
+.kartuna {
+    margin: 20px;
+}
+
+.grid-cont {
+    grid-template-columns: 1fr;
+    margin: 20px;
+}
+.grid-cont2 {
+    grid-template-columns: 1fr;
+    margin: 20px;
+}
+
+.knopka {
+    grid-column: 1;
+    justify-self: center;
+ }
+.nuz {
+    flex-wrap: wrap;
+}
+
+}
