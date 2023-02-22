@@ -12,12 +12,15 @@ header {
     margin: 0 150px;
     align-items: center;
 }
+.b1 {
+    flex-grow: 1;
+}
 
 .verh {
     list-style-type: none;
-    margin-left: auto;
     display: flex;
-    gap: 150px;
+    justify-content: space-between;
+    flex-grow: 1;
 }
 
 .kartuna img {
@@ -85,7 +88,7 @@ input {
 }
 
 .knopka {
-   grid-column: 1 / span 2;
+   grid-column: 1 / span 2 ;
    justify-self: center;
 }
 
@@ -94,7 +97,6 @@ button {
     padding: 15px 30px;
     font-size: 20px;
 }
-
 .nuz {
     display: flex;
     align-items: center;
@@ -103,12 +105,12 @@ button {
 
 .nuz1 {
     display: flex;
-    gap: 50px;
     align-items: center;
+    flex-grow: 1;
+    gap: 20px;
 }
 .nuz2 {
     display: flex;
-    margin-left: auto;
     gap: 30px;
     align-items: center;
 }
@@ -119,7 +121,7 @@ footer img {
 
 footer ul {
     list-style-type: none;
-
+    padding: 0;
 }
 
 footer {
@@ -127,37 +129,28 @@ footer {
 }
 
 @media (max-width:960px) { 
+
 .cont-head {
-        display: inline-flex;
-    }
-.verh {
-    gap: 10px;
     flex-direction: column;
+}    
+.verh {
+    gap: 30px;
 }
 
-.opus {
+.opus, .kartuna {
     margin: 20px;
 }
 
-.kartuna {
-    margin: 20px;
-}
-
-.grid-cont {
+.grid-cont, .grid-cont2 {
     grid-template-columns: 1fr;
-    margin: 20px;
+    margin: 1px;
 }
-.grid-cont2 {
-    grid-template-columns: 1fr;
-    margin: 20px;
-}
-
 .knopka {
     grid-column: 1;
-    justify-self: center;
  }
-.nuz {
+.nuz{
     flex-wrap: wrap;
+    margin: 20px;
 }
 
 }
