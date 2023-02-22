@@ -56,3 +56,21 @@ figcaption {
 .grid-cont img {
     width: 100%;
 } 
+
+.icon {
+    padding-right: 50px;
+    background: url("./img/free-icon-arrow-5157938.png") no-repeat right;
+    background-size: 20px;
+}
+
+.forma {
+    background-color: lightgray;
+    padding: 50px;
+    text-align: center;
+}
+
+input {
+    border-style: none;
+    border-bottom: 2px solid black;
+    font-size: 28px;
+}
